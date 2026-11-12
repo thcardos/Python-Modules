@@ -1,4 +1,4 @@
-from dotenv import load_dotenv # type: ignore
+from dotenv import load_dotenv  # type: ignore
 import os
 DEFAULTS: dict[str, str] = {
     "MATRIX_MODE": "development",
