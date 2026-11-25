@@ -28,8 +28,6 @@ def ft_archive_creation() -> None:
                 new_file.close()
             else:
                 print("Not saving data.")
-
-
         except OSError as error:
             print(f"Error opening file '{sys.argv[1]}': {error}")
     else:
